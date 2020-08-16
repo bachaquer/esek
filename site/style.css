@@ -1,0 +1,11 @@
+body{
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	text-align: center;
+	background-color: CornflowerBlue;
+}
+span:hover,span:active{
+	background-color: DarkRed;
+	color:gold;
+	border:black 3px solid;
+	cursor: pointer;
+}
