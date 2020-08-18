@@ -44,16 +44,17 @@ p{
 footer{
 	clear: left;
 }
-@media (min-width: 0px) and (max-width: 767px){
+@media (min-width: 0px) and (max-width: 999px){
 	body{
 		font-size: 40px;
 	}
 	p{
-		width: 200px;
+		width: 900px;
+		height: 900px;
 		clear: left;
 	}
 }
-@media (min-width: 768px){
+@media (min-width: 1000px){
 	p{
 		float: left;
 	}
