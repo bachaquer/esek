@@ -16,10 +16,9 @@ span:hover,span:active{
 }
 p{
 	width: 30%;
-	height: 100px;
-	margin:10px;
+	height: 300px;
+	margin:15px;
 	border: 3px solid black;
-	float: left;
 	background-color: white;
 	overflow: auto;
 	color: lightgreen;
@@ -44,4 +43,18 @@ p{
 }
 footer{
 	clear: left;
+}
+@media (min-width: 0px) and (max-width: 767px){
+	body{
+		font-size: 40px;
+	}
+	p{
+		width: 200px;
+		clear: left;
+	}
+}
+@media (min-width: 768px){
+	p{
+		float: left;
+	}
 }
