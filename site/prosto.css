@@ -1,0 +1,92 @@
+*{
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+	font-family: "Lato", Helvetica, sans-serif;
+}
+body{
+	text-align: center;
+	background-image: url(https://scontent-waw1-1.cdninstagram.com/v/t51.2885-15/e35/64785777_319388075616786_6729599871152951871_n.jpg?_nc_ht=scontent-waw1-1.cdninstagram.com&_nc_cat=106&_nc_ohc=oZitDrKykSMAX8XfmCq&oh=ed2956b1bc2edb4be1e3853f14e44526&oe=5F672F09);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-color: lightgreen;
+	background-size: 700px;
+}
+h1{
+	color: maroon;
+	text-align: center;
+	padding: 10px;
+	background-color: dodgerblue;
+}
+a:link, a:visited{
+	text-decoration: none;
+	color:black;
+}
+p{
+	width: 150px;
+	height: 150px;
+	border: 10px dotted black;
+	margin: 5px;
+	background-clip: padding-box;
+	float: left;
+	margin-right: 0px;
+	margin-left: 151.7px;
+	text-align: center;
+	position: relative;
+}
+p:hover, p:active{
+	width: 250px;
+	height: 250px;
+	font-size: 200%;
+	right: 50px;
+}
+#lol1{
+	background-color: chartreuse; 
+}
+#lol2{
+	background-color:  tomato;
+}
+#lol3{
+	background-color:  orchid;
+}
+#lol4{
+	background-color:  yellow;
+}
+footer{
+	clear: left;
+	margin: 10px;
+	text-align: center;
+}
+#kek{
+	clear: left;
+}
+img{
+	border: 3px solid black;
+	margin-top: 10px;
+	clear: left;
+	position: relative;
+}
+@media (min-width: 200px) and (max-width: 1000px){
+	p{
+		clear: left;
+		height: 400px;
+		width: 400px;
+		margin: 100px;
+		margin-left: 300px;	
+		position: relative;
+		border: 8px solid black;
+	}
+	p:hover, p:active{
+	width: 550px;
+	height: 550px;
+	font-size: 200%;
+	bottom: 75px;
+	right: 75px;
+	}
+	h1{
+		font-size: 70px;
+	}
+	*{
+		font-size: 50px;
+	}
+}
