@@ -1,0 +1,40 @@
+body{
+	font-family: 'Alata', sans-serif;
+	background-color: maroon;
+	font-size: 16px;
+}
+#header-nav{
+	background-color: lightgray;
+	border-radius: 0;
+	border: 0;
+}
+#logo-img{
+	background-position: center center;
+	background-image: url(https://www.kindpng.com/picc/m/257-2572238_kfc-logo-png-kfc-black-and-white-logo.png);
+	background-size: 150% 120%;
+	background-repeat: no-repeat;
+	border-radius: 100px;
+	width: 150px;
+	height: 150px;
+	margin: 10px 15px 10px 0px;
+}
+.navbar-brand{
+	padding-top: 25px;
+}
+.navbar-brand h1{
+	font-family: 'Fredoka One', cursive;
+	color: firebrick;
+	font-size: 8em;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow: 1px 1px 8px #222, -1px 0px black, 1px 0px black, 0px 1px black, 0px -1px black;
+	margin-top: 0;
+	margin-bottom: 50px;
+	line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus{
+	text-decoration: none;
+}
+.navbar-brand span{
+	vertical-align: middle;
+}

@@ -23,14 +23,14 @@ a:link, a:visited{
 	color:black;
 }
 p{
-	width: 150px;
+	width: 25%;
 	height: 150px;
 	border: 10px dotted black;
 	margin: 5px;
 	background-clip: padding-box;
 	float: left;
-	margin-right: 0px;
-	margin-left: 151.7px;
+	margin-right: auto;
+	margin-left: auto;
 	text-align: center;
 	position: relative;
 }
@@ -66,7 +66,7 @@ img{
 	clear: left;
 	position: relative;
 }
-@media (min-width: 200px) and (max-width: 1000px){
+/*@media (min-width: 200px) and (max-width: 1000px){
 	p{
 		clear: left;
 		height: 400px;
@@ -92,4 +92,4 @@ img{
 	body{
 		background-size: 1000px;
 	}
-}
+}*/
