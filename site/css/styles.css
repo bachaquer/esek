@@ -3,6 +3,8 @@ body{
 	background-color: maroon;
 	font-size: 16px;
 }
+
+
 #header-nav{
 	background-color: lightgray;
 	border-radius: 0;
@@ -14,8 +16,8 @@ body{
 	background-size: 150% 120%;
 	background-repeat: no-repeat;
 	border-radius: 100px;
-	width: 150px;
-	height: 150px;
+	width: 175px;
+	height: 175px;
 	margin: 10px 15px 10px 0px;
 }
 .navbar-brand{
@@ -29,7 +31,7 @@ body{
 	font-weight: bold;
 	text-shadow: 1px 1px 8px #222, -1px 0px black, 1px 0px black, 0px 1px black, 0px -1px black;
 	margin-top: 0;
-	margin-bottom: 50px;
+	margin-bottom: 20px;
 	line-height: .75;
 }
 .navbar-brand a:hover, .navbar-brand a:focus{
@@ -37,4 +39,120 @@ body{
 }
 .navbar-brand span{
 	vertical-align: middle;
+}
+#nav-list{
+	padding-top: 15px;
+}
+#nav-list a{
+	color: maroon;
+	text-align: center;
+}
+#nav-list a:hover{
+	background-color: #E7E7E7;
+}
+#nav-list a span{
+	font-size: 1.4em
+}
+
+#phone{
+	margin-top: 5px;
+}
+#phone a{
+	text-align: right;
+	padding-bottom: 0;
+}
+#phone div{
+	text-align: right;
+	padding-right: 15px;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+
+/*@media (max-width: 991px){
+	.navbar-brand h1{
+		font-size: 5em;
+	}
+	.navbar-brand {
+		padding-top: 10px;
+	}
+}
+@media (max-width: 768px){
+	.navbar-brand h1{
+		font-size: 3em;
+	}
+	.navbar-brand{
+		padding-top: 10px;
+	}
+}*/
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Header */
+  #logo-img {
+    background-position: center center;
+	background-image: url(https://www.kindpng.com/picc/m/257-2572238_kfc-logo-png-kfc-black-and-white-logo.png);
+	background-size: 150% 120%;
+	background-repeat: no-repeat;
+	border-radius: 100px;
+	width: 100px;
+	height: 100px;
+    margin: 5px 20px 5px 0;
+  }
+  .navbar-brand h1{
+  	font-size: 4em;
+  	margin-bottom: 10px;
+  }
+  .navbar-brand{
+  	padding-top: 15px;
+  }
+  /* End Header */
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+	.navbar-brand h1{
+  	font-size: 6em;
+  	margin-bottom: 10px;
+  }
+  .navbar-brand{
+  	padding-top: 15px;
+  }
+
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    height: 20vw;
+  }
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 10px;
+    font-size: 20vw; /* 1vw = 1% of viewport width */
+  }
+  .navbar-brand p { /* Kosher cert */
+    font-size: .6em;
+    margin-top: 12px;
+  }
+  .navbar-brand p img { /* Star-K */
+    height: 30px;
+  }
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+  }
+  #collapsable-nav a span{
+  	font-size: 1em;
+  	margin-right: 5px;
+  }
 }

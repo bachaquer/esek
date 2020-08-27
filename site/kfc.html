@@ -15,17 +15,45 @@
 		<nav id="header-nav" class="navbar navbar-default">
 			<div class="container">
 				<div class="navbar-header">
-					<a href="kfc.html" class="float-left d-none d-md-block d-lg-block d-xl-block">
+					<a href="kfc.html" class="pull-left visible-md visible-lg">
 						<div id="logo-img" alt="Logo image"></div>
 					</a>
 					<div class="navbar-brand">
 						<a href="kfc.html"><h1>KFC</h1></a>
-						<p>
+						<p class="hidden-xs">
 							<img src="https://upload.wikimedia.org/wikipedia/commons/b/b8/KFC_logo.png" height="25px" width="50px" alt="KFC">
 							<span> Kentucky Fried Chicken</span>
 						</p>
 					</div>
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+        				<span class="sr-only">Toggle navigation</span>
+        				<span class="icon-bar"></span>
+        				<span class="icon-bar"></span>
+        				<span class="icon-bar"></span>
+      				</button>
 				</div>
+
+				<div id="collapsable-nav" class="collapse navbar-collapse">
+		           <ul id="nav-list" class="nav navbar-nav navbar-right">
+		            <li>
+		              <a href="menu.html">
+		                <span class="glyphicon glyphicon-cutlery"></span><br class="hidden-xs"> Menu</a>
+		            </li>
+		            <li>
+		              <a href="#">
+		                <span class="glyphicon glyphicon-info-sign"></span><br class="hidden-xs"> About</a>
+		            </li>
+		            <li>
+		              <a href="#">
+		                <span class="glyphicon glyphicon-certificate"></span><br class="hidden-xs"> Awards</a>
+		            </li>
+		            <li id="phone" class="hidden-xs">
+		              <a href="tel:8-800-555-35-35">
+		                <span>8-800-555-35-35</span></a><div>* We Deliver</div>
+		            </li>
+		          </ul><!-- #nav-list -->
+		        </div><!-- .collapse .navbar-collapse -->
+
 			</div>
 		</nav>
 	</header>
