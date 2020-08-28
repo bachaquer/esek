@@ -74,9 +74,46 @@ body{
   margin-top: -30px;
 }
 
+
+
 .container .jumbotron {
   box-shadow: 0 0 50px #4d0505;
   border: 2px solid #4d0505;
+}
+#menu-tile, #specials-tile, #map-tile {
+  height: 250px;
+  width: 100%;
+  margin-bottom: 15px;
+  position: relative;
+  border: 2px solid #3F0C1F;
+  overflow: hidden;
+}
+#menu-tile:hover, #specials-tile:hover, #map-tile:hover {
+  box-shadow: 0 1px 5px 1px #cccccc;
+}
+
+#menu-tile {
+  background: url(https://mir-s3-cdn-cf.behance.net/project_modules/1400/a6556d56754573.59bac462be6f8.jpg) no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+}
+#specials-tile {
+  background: url(https://mudheshmag.com/wp-content/uploads/2020/07/kfc-1.jpg) no-repeat;
+  background-position: center;
+  background-size: 120% 100%;
+}
+
+#menu-tile span, #specials-tile span, #map-tile span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.6em;
+  text-transform: uppercase;
+  background-color: #000;
+  color: #fff;
+  opacity: .8;
 }
 
 /********** Large devices only **********/
@@ -183,5 +220,17 @@ body{
   .container .jumbotron {
     margin-top: 30px;
     padding: 0;
+  }
+  #menu-tile, #specials-tile, #map-tile {
+    width: 360px;
+    margin: 0 auto 15px;
+  }
+}
+@media (max-width: 479px) {
+  
+  /* Home page */
+  #menu-tile, #specials-tile {
+    width: 280px;
+    margin: 0 auto 15px;
   }
 }
