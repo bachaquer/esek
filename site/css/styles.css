@@ -2,6 +2,7 @@ body{
 	font-family: 'Alata', sans-serif;
 	background-color: maroon;
 	font-size: 16px;
+	color: white;
 }
 
 
@@ -15,7 +16,6 @@ body{
 	background-image: url(https://upload.wikimedia.org/wikipedia/ru/b/bf/KFC_logo.svg);
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
-
 	width: 175px;
 	height: 175px;
 	margin: 10px 15px 10px 0px; 
@@ -64,6 +64,7 @@ body{
 #phone div{
 	text-align: right;
 	padding-right: 15px;
+	color: gray;
 }
 
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
@@ -150,6 +151,89 @@ body{
   opacity: .8;
 }
 
+/* MENU CATEGORIES PAGE */
+.category-tile { 
+  position: relative;
+  border: 2px solid black;
+  overflow: hidden;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto 15px;
+  box-shadow: 0 0 20px #4d0505;
+}
+.category-tile span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  background-color: #000;
+  color: #fff;
+  opacity: .8;
+}
+.category-tile:hover {
+  box-shadow: 0 1px 5px 1px #cccccc;
+}
+
+#menu-categories-title + div {
+  margin-bottom: 50px;
+  color: white;
+}
+#menu-categories-title{
+	color: white;
+}
+
+/* END MENU CATEGORIES PAGE */
+
+.menu-item-tile {
+  margin-bottom: 25px;
+}
+.menu-item-tile hr {
+  width: 80%;
+}
+.menu-item-tile .menu-item-price {
+  font-size: 1.1em;
+  text-align: right;
+  margin-top: -15px;
+  margin-right: -15px;
+}
+.menu-item-tile .menu-item-price span {
+  font-size: .6em;
+}
+.menu-item-photo {
+  position: relative;
+  border: 2px solid black; 
+  overflow: hidden;
+  padding: 0;
+  margin-right: -15px;
+  margin-left: auto;
+  margin-bottom: 20px;
+  max-width: 250px;
+  box-shadow: 0 0 20px #4d0505;
+}
+.menu-item-photo div {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 80px;
+  background-color: #557c3e;
+  text-align: center;
+}
+.menu-item-description {
+  padding-right: 30px;
+}
+h3.menu-item-title {
+  margin: 0 0 10px;
+}
+.menu-item-details {
+  font-size: .9em;
+  font-style: italic;
+}
+/* END SINGLE CATEGORY PAGE */
+
+
 /********** Large devices only **********/
 @media (min-width: 1200px) {
 	.container .jumbotron {
@@ -186,6 +270,7 @@ body{
   }
   /* End Home Page */
 }
+
 
 /********** Small devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
@@ -274,6 +359,17 @@ body{
     width: 360px;
     margin: 0 auto 15px;
   }
+
+  .menu-item-photo {
+    margin-right: auto;
+  }
+  .menu-item-tile .menu-item-price {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .menu-item-description {
+    text-align: center;;
+  }
 }
 
 
@@ -285,4 +381,22 @@ body{
     width: 280px;
     margin: 0 auto 15px;
   }
+
+   .col-xxs-12 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    float: left;
+    width: 100%;
+  }
+}
+
+#soon {
+	font-size: 10vw;
+	text-shadow: 5px 5px 0 black;
+}
+#soon + p{
+	font-size: 2vw;
+	text-shadow: 0 0 20px black;
 }
