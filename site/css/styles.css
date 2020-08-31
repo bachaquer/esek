@@ -233,6 +233,16 @@ h3.menu-item-title {
 }
 /* END SINGLE CATEGORY PAGE */
 
+#soon {
+	font-size: 10vw;
+	text-shadow: 0.4vw .4vw 0 black;
+}
+#soon + p{
+	font-size: 2vw;
+	text-shadow: 0 0 4vw black;
+
+}
+
 
 /********** Large devices only **********/
 @media (min-width: 1200px) {
@@ -290,6 +300,14 @@ h3.menu-item-title {
   }
   /* End Home Page */
 
+  #soon {
+	font-size: 15vw;
+	text-shadow: 0.6vw .6vw 0 black;
+	}
+	#soon + p{
+	font-size: 3vw;
+	text-shadow: 0 0 4vw black;
+	}
 }
 
 /********** Extra small devices only **********/
@@ -370,6 +388,15 @@ h3.menu-item-title {
   .menu-item-description {
     text-align: center;;
   }
+
+  #soon {
+	font-size: 20vw;
+	text-shadow: 0.8vw .8vw 0 black;
+}
+	#soon + p{
+	font-size: 4vw;
+	text-shadow: 0 0 4vw black;
+	}
 }
 
 
@@ -390,13 +417,12 @@ h3.menu-item-title {
     float: left;
     width: 100%;
   }
+  #soon {
+	font-size: 20vw;
+	text-shadow: 0.8vw .8vw 0 black;
 }
-
-#soon {
-	font-size: 10vw;
-	text-shadow: 5px 5px 0 black;
-}
-#soon + p{
-	font-size: 2vw;
-	text-shadow: 0 0 20px black;
+	#soon + p{
+	font-size: 4vw;
+	text-shadow: 0 0 4vw black;
+	}
 }
